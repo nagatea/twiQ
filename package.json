@@ -1,0 +1,22 @@
+{
+  "name": "twiq",
+  "version": "1.0.0",
+  "description": "traQみたいなTwitterクライアント",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nagatea/twiQ.git"
+  },
+  "author": "nagatech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nagatea/twiQ/issues"
+  },
+  "homepage": "https://github.com/nagatea/twiQ#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
