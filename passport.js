@@ -1,11 +1,11 @@
 const CONSUMER_KEY = 'BpmL1N0nvXL1Bclo2PmTsbxfR'
 const CONSUMER_SECRET = 'JfkSqgSzjnXTAWocpnHwqrW3GUXynKb1BEKB6pXFaORBtwuzUx'
 const passport = require('passport')
-  , TwitterStrategy = require('passport-twitter').Strategy
+const TwitterStrategy = require('passport-twitter').Strategy
 
 //Session setting
 passport.serializeUser(function(user, done) {
-  done(null, user.id)
+  done(null, user)
 })
 passport.deserializeUser(function(obj, done) {
   done(null, obj)
